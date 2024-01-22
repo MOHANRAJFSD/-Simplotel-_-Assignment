@@ -1,0 +1,555 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+body {
+  margin: 0px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@media screen and (min-width:992px) {
+  .newbg {
+      background-image: linear-gradient(to right, #FFF6AE, #FFCED5, #FFADF5);
+      background-size: cover;
+      height: 100vh;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      color: black;
+      font-size: 25px;
+  }
+
+  .backgroundContainer {
+      background-image: linear-gradient(to right, #FFF7AD, #FFD1D2);
+      background-size: cover;
+      height: 100vh;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      color: black;
+      font-size: 25px;
+  }
+
+  .navbar {
+      display: flex;
+      flex-direction: row;
+      align-content: space-between;
+      align-items: flex-start;
+      background-color: #FF7171;
+      width: 100%;
+      height: 10%;
+      padding: 3px;
+  }
+
+  .content-container {
+      font-size: 20px;
+      font-weight: 700;
+      width: 80%;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: flex-start;
+  }
+
+  .icons {
+      width: 20%;
+      height: 100%;
+      padding: 10px;
+      display: flex;
+      justify-content: center;
+
+  }
+
+  .navicon {
+      padding: 20%;
+      background-image: url('https://res.cloudinary.com/dxqnpbizj/image/upload/v1705930176/hamberger.png');
+      background-size: cover;
+
+  }
+
+  .main-content {
+      display: flex;
+      flex-direction: row;
+      height: 100%;
+  }
+
+  .content-area {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 50%;
+      padding: 10px;
+      font-size: 20px;
+  }
+
+  .main-content-heading {
+      font-size: 30px;
+      font-weight: bold;
+  }
+
+  .click-button {
+      width: 50%;
+      height: 8%;
+      background-color: #FF7171;
+      padding: 10px;
+      font-size: 20px;
+      color: white;
+  }
+
+  .main-content-image {
+      width: 50%;
+      background-size: cover;
+
+  }
+
+  .contentContainerEl {
+      padding: 20px;
+      height: 100%;
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .imageContentContainer {
+      width: 50%;
+      height: 50%;
+      display: flex;
+      flex-direction: row;
+  }
+
+  .imageContainer {
+      width: 50%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+
+  }
+
+  .imageEl1 {
+      height: 50%;
+      background-size: cover;
+      padding-bottom: 5px;
+  }
+
+  .imageEl2 {
+      padding-top: 5px;
+      height: 50%;
+      background-size: cover;
+  }
+
+  .imageEl3 {
+      height: 100%;
+      margin-left: 5px;
+      background-size: cover;
+  }
+
+  .contentContainer {
+      height: 50%;
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+  }
+
+  .content {
+      margin: 10px;
+      padding: 10px;
+      font-size: 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      background-color: #FF7171;
+  }
+
+  .contentHeading {
+      font-size: 25px;
+      font-weight: 700;
+  }
+
+  .iconContainer {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: center;
+      width: 50%;
+
+  }
+
+  .icon {
+      background-image: url('https://res.cloudinary.com/dxqnpbizj/image/upload/v1705930176/arrow.png');
+      width: 20%;
+      padding-left: 5px;
+      height: 50%;
+      background-size: cover;
+  }
+
+}
+
+@media screen and (max-width:768px) {
+  .newbg {
+      background-image: linear-gradient(to right, #FFF6AE, #FFCED5, #FFADF5);
+      background-size: cover;
+      height: 100vh;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      color: black;
+      font-size: 25px;
+  }
+
+  .backgroundContainer {
+      background-image: linear-gradient(to right, #FFF7AD, #FFD1D2);
+      background-size: cover;
+      height: 100vh;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      color: black;
+      font-size: 25px;
+  }
+
+  .navbar {
+      display: flex;
+      flex-direction: row;
+      align-content: space-between;
+      align-items: flex-start;
+      background-color: #FF7171;
+      width: 100%;
+      height: 10%;
+      padding: 3px;
+  }
+
+  .content-container {
+      font-size: 20px;
+      font-weight: 700;
+      width: 80%;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: flex-start;
+  }
+
+  .icons {
+      width: 20%;
+      height: 100%;
+      padding: 10px;
+      display: flex;
+      justify-content: center;
+
+  }
+
+  .navicon {
+      padding: 20%;
+      background-image: url('https://res.cloudinary.com/dxqnpbizj/image/upload/v1705930176/hamberger.png');
+      background-size: cover;
+
+  }
+
+  .main-content {
+      display: flex;
+      flex-direction: row;
+      height: 100%;
+  }
+
+  .content-area {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 50%;
+      padding: 10px;
+      font-size: 20px;
+  }
+
+  .main-content-heading {
+      font-size: 30px;
+      font-weight: bold;
+  }
+
+  .click-button {
+      width: 50%;
+      height: 8%;
+      background-color: #FF7171;
+      padding: 10px;
+      font-size: 20px;
+      color: white;
+  }
+
+  .main-content-image {
+      width: 50%;
+      background-size: cover;
+
+  }
+
+  .contentContainerEl {
+      padding: 20px;
+      height: 100%;
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .imageContentContainer {
+      width: 50%;
+      height: 50%;
+      display: flex;
+      flex-direction: row;
+  }
+
+  .imageContainer {
+      width: 50%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+
+  }
+
+  .imageEl1 {
+      height: 50%;
+      background-size: cover;
+      padding-bottom: 5px;
+  }
+
+  .imageEl2 {
+      padding-top: 5px;
+      height: 50%;
+      background-size: cover;
+  }
+
+  .imageEl3 {
+      height: 100%;
+      margin-left: 5px;
+      background-size: cover;
+  }
+
+  .contentContainer {
+      height: 50%;
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+  }
+
+  .content {
+      margin: 10px;
+      padding: 10px;
+      font-size: 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      background-color: #FF7171;
+  }
+
+  .contentHeading {
+      font-size: 25px;
+      font-weight: 700;
+  }
+
+  .iconContainer {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: center;
+      width: 50%;
+
+  }
+
+  .icon {
+      background-image: url('https://res.cloudinary.com/dxqnpbizj/image/upload/v1705930176/arrow.png');
+      width: 20%;
+      padding-left: 5px;
+      height: 50%;
+      background-size: cover;
+  }
+
+}
+
+
+@media screen and (max-width:576px) {
+  .newbg {
+      background-image: linear-gradient(to right, #FFF6AE, #FFCED5, #FFADF5);
+      background-size: cover;
+      height: 100vh;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      color: black;
+      font-size: 25px;
+  }
+
+  .backgroundContainer {
+      background-image: linear-gradient(to right, #FFF7AD, #FFD1D2);
+      background-size: cover;
+      height: 100vh;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      color: black;
+      font-size: 25px;
+  }
+
+  .navbar {
+      display: flex;
+      flex-direction: row;
+      align-content: space-between;
+      align-items: flex-start;
+      background-color: #FF7171;
+      width: 100%;
+      height: 10%;
+      padding: 3px;
+  }
+
+  .content-container {
+      font-size: 10px;
+      font-weight: 700;
+      width: 80%;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: flex-start;
+  }
+
+  .icons {
+      width: 20%;
+      height: 100%;
+      padding: 10px;
+      display: flex;
+      justify-content: center;
+
+  }
+
+  .navicon {
+      padding: 20%;
+      background-image: url('https://res.cloudinary.com/dxqnpbizj/image/upload/v1705930176/hamberger.png');
+      background-size: cover;
+
+  }
+
+  .main-content {
+      display: flex;
+      flex-direction: row;
+      height: 100%;
+  }
+
+  .content-area {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 50%;
+      padding: 10px;
+      font-size: 12px;
+  }
+
+  .main-content-heading {
+      font-size: 15px;
+      font-weight: bold;
+  }
+
+  .click-button {
+      width: 50%;
+      height: 8%;
+      background-color: #FF7171;
+      padding: 10px;
+      font-size: 10px;
+      color: white;
+  }
+
+  .main-content-image {
+      width: 50%;
+      background-size: cover;
+
+  }
+
+  .contentContainerEl {
+      padding: 20px;
+      height: 100%;
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .imageContentContainer {
+      width: 50%;
+      height: 50%;
+      display: flex;
+      flex-direction: row;
+  }
+
+  .imageContainer {
+      width: 50%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+
+  }
+
+  .imageEl1 {
+      height: 50%;
+      background-size: cover;
+      padding-bottom: 5px;
+  }
+
+  .imageEl2 {
+      padding-top: 5px;
+      height: 50%;
+      background-size: cover;
+  }
+
+  .imageEl3 {
+      height: 100%;
+      margin-left: 5px;
+      background-size: cover;
+  }
+
+  .contentContainer {
+      height: 50%;
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+  }
+
+  .content {
+      margin: 10px;
+      padding: 10px;
+      font-size: 10px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      background-color: #FF7171;
+  }
+
+  .contentHeading {
+      font-size: 15px;
+      font-weight: 700;
+  }
+
+  .iconContainer {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: center;
+      width: 50%;
+
+  }
+
+  .icon {
+      background-image: url('https://res.cloudinary.com/dxqnpbizj/image/upload/v1705930176/arrow.png');
+      width: 20%;
+      padding-left: 5px;
+      height: 50%;
+      background-size: cover;
+  }
+
+}
